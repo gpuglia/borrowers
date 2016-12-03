@@ -7,4 +7,4 @@ export default Ember.Controller.extend({
   cancel(model) {
     this.transitionToRoute('articles.show', model);
   },
-})
+});

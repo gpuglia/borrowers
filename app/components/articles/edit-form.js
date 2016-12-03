@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     save() {
       if (this.get('isValid')) {
         this.get('model').save().then((article) => {
-          return this.save(article)
+          return this.save(article);
         }, () => {
           this.set('errorMessage', 'there was something wrong saving the model');
         });
