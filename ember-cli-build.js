@@ -7,5 +7,6 @@ module.exports = function(defaults) {
   });
 
   app.import('vendor/basscss.min.css');
+  app.import('bower_components/moment/moment.js');
   return app.toTree();
 };
